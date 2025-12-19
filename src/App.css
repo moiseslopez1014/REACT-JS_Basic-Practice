@@ -9,7 +9,14 @@
   background-color: #FFA500;
   display: flex;
   align-items: center;
-  width: 800px;
+  width: 1000px;
   justify-content: space-around;
   border-radius: 10px 10px 0 0;
 }
+
+.mainCard {
+  width: 998px;
+  border: 1px solid #FFA500;
+  border-radius: 0 0 10px 10px;
+}
+
