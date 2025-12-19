@@ -1,13 +1,17 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
+import ContactPage from "../pages/ContactPage";
 
 const MainLayout = () => {
   return (
     <>
-    <div>MainLayout</div>
-    <Outlet/>
+      <nav className="navBar">
+        <Link to='/create'>Crear Pokemon</Link>
+        <Link to='/contact'>Contacto</Link>
+      </nav>
+      <Outlet />
     </>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;
