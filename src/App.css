@@ -4,6 +4,17 @@
   padding: 2rem;
   text-align: center;
 }
+#footer {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.green {
+  background-color: green;
+}
+.green:hover {
+  color: white;
+}
 
 .navBar {
   background-color: #FFA500;

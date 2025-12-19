@@ -11,7 +11,7 @@ const MainLayout = () => {
         <Link to='/contact'>Contacto</Link>
       </nav>
       <Outlet />
-      <p>Proyecto de listado de Pokemons - Practica basica de Modulo ReactJS</p>
+      <p id="footer">Proyecto de listado de Pokemons - Practica basica de Modulo ReactJS</p>
     </>
   );
 };

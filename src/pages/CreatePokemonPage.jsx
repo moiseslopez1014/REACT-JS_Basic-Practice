@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const CreatePokemonPage = () => {
   return (
-    <div>CreatePokemonPage</div>
-  )
-}
+    <>
+      <div className="mainCard">CreatePokemonPage</div>
+      <button className="green">Crear Pokemon</button>
+    </>
+  );
+};
 
-export default CreatePokemonPage
+export default CreatePokemonPage;
